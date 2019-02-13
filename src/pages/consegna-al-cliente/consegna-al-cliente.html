@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Consegna al cliente
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3">
+  <h3 id="consegnaAlCliente-heading1" style="color:#000000;">
+    Cliente XXX
+  </h3>
+  <div id="consegnaAlCliente-markdown1" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Indirizzo:
+      <strong>
+        Via Marconi, 116 - PARMA
+      </strong>
+    </p>
+  </div>
+  <ion-list id="consegnaAlCliente-list4">
+    <ion-item color="balanced" id="consegnaAlCliente-list-item14">
+      Descr. collo 1
+      <ion-note item-right></ion-note>
+      <ion-icon name="checkmark-circle-outline" item-right></ion-icon>
+    </ion-item>
+    <ion-item color="none" id="consegnaAlCliente-list-item15">
+      Descr. collo 2
+      <ion-note item-right></ion-note>
+      <ion-icon name="radio-button-off" item-right></ion-icon>
+    </ion-item>
+    <ion-item-sliding>
+      <ion-item color="balanced" id="consegnaAlCliente-list-item16">
+        Descr. collo 3 SW
+        <ion-note item-right></ion-note>
+        <ion-icon name="checkmark-circle" item-right></ion-icon>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="energized">
+          CANC
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item color="none" id="consegnaAlCliente-list-item17">
+        Descr. collo 4 SW
+        <ion-note item-right></ion-note>
+        <ion-icon name="radio-button-off" item-right></ion-icon>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="assertive">
+          DEL
+        </button>
+        <button ion-button color="positive">
+          +
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <button id="consegnaAlCliente-button3" ion-button color="balanced" block small on-click="goToLetturaCodiciABarre()">
+    <ion-icon name="barcode"></ion-icon>
+    Lettore codici a barre ...
+  </button>
+</ion-content>
